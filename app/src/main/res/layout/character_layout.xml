@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CharacterRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@android:color/background_light"
+    android:paddingEnd="25dp"
+    android:paddingStart="25dp">
+
+    <LinearLayout
+        android:id="@+id/characterStatsTextViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:divider="@android:drawable/alert_light_frame"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/characterTextViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewActualName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:text="Barry Bluejeans"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewHP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HP" />
+
+            <TextView
+                android:id="@+id/textViewHpNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="17"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textViewPerceptionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:text="Perception" />
+
+            <TextView
+                android:id="@+id/textViewPerceptionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:text="14" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewStrLabel"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:text="str" />
+
+            <TextView
+                android:id="@+id/textViewDexLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:text="dex" />
+
+            <TextView
+                android:id="@+id/textViewConLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:text="con" />
+
+            <TextView
+                android:id="@+id/textViewWisLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:text="wis" />
+
+            <TextView
+                android:id="@+id/textViewIntelLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:text="int " />
+
+            <TextView
+                android:id="@+id/textViewChaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:text="cha" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewStrValue"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/textViewDexValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/textViewConValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/textViewWisValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/textViewIntelValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10" />
+
+            <TextView
+                android:id="@+id/textViewChaValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TabletopCharacterManager</string>
+    <string name="title_activity_recycler_view">RecyclerViewActivity</string>
+    <string name="title_activity_create_character">CreateCharacterActivity</string>
+</resources>
